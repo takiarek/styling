@@ -17,12 +17,25 @@ body {
   font-style: normal;
 }
 
+.motion-screens-list {
+  font-size: 1.125rem;
+}
+
+.list-heading {
+  padding: 0.5rem 0.25rem 0.25rem;
+}
+
 .motion-screen {
   display: flex;
   justify-content: space-between;
+  padding: 0.25rem 0.5rem;
 }
 
 .motion-screen-info {
   display: flex;
   gap: 1rem;
+}
+
+li:hover {
+  background-color: grey;
 }
