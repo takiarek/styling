@@ -10,6 +10,10 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
@@ -71,6 +75,13 @@ body {
 .details {
   font-size: 0.9rem;
   font-weight: 350;
+}
+
+.edit-button {
+  background-color: rgb(238 242 255);
+  color: indigo;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10%;
 }
 
 li:hover {
