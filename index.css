@@ -28,12 +28,34 @@ body {
 .motion-screen {
   display: flex;
   justify-content: space-between;
-  padding: 0.25rem 0.5rem;
+  align-items: center;
+  padding: 0.25rem;
 }
 
 .motion-screen-info {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.date {
+  background-color: #F0FAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem 0.75rem;
+  border-radius: 10%;
+}
+
+.day-month {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.year {
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 li:hover {
