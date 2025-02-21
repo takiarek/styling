@@ -17,3 +17,12 @@ body {
   font-style: normal;
 }
 
+.motion-screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.motion-screen-info {
+  display: flex;
+  gap: 1rem;
+}
