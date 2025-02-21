@@ -50,12 +50,27 @@ body {
 
 .day-month {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .year {
   font-size: 0.9rem;
   font-weight: 300;
+}
+
+.team-and-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.team {
+  font-weight: 600;
+}
+
+.details {
+  font-size: 0.9rem;
+  font-weight: 350;
 }
 
 li:hover {
