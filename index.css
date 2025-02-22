@@ -74,10 +74,11 @@ body {
 
 .details {
   display: flex;
-  justify-content: start;
-  gap: 0.5rem;
-  font-size: 0.9rem;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.75rem;
   font-weight: 350;
+  color: rgb(107 114 128);
 }
 
 .one-detail {
